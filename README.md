@@ -1,5 +1,5 @@
 # IMPORTANT
-I do not take any responsibility for what happens with your, it might get quarantined if you use dmall, or anything related. USE AT YOUR OWN RISK!
+I do not take any responsibility for what happens with your bot, it might get quarantined if you use dmall, or anything related. USE AT YOUR OWN RISK!
 # DJS-Nuker
 A very fast bot used for nuking / raiding discord servers, it's very fast despite the fact that's made with Discord.JS.
 # What To Do
