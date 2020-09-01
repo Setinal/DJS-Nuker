@@ -4,11 +4,11 @@ const fs = require('fs');
 var prefix = '>'
  
 
-const token = 'YOUR-TOKEN' // You can get your bot token from discord.com/developers [CREATE AN APP]
+const token = 'NzUwNDIyMTM0NjM5Mjk2NjIy.X06TEw.c8bv4O_kHRKy0devFxwYaepwPLw' // You can get your bot token from discord.com/developers [CREATE AN APP]
 
 
 bot.on('ready', () =>{
-    console.log('Fuck Skids'); // If the bot is ready, it logs this message
+    console.log('https://github.com/Setinal/DJS-Nuker'); // If the bot is ready, it logs this message
     
       bot.user.setActivity('Anti-Skids', { // This is the activity.
         type: 'Playing'
