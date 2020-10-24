@@ -12,8 +12,7 @@ module.exports.run = async(bot, message, args) => {
     
    if(ownerids.ownerid.includes(message.user.id)) return;
    
-   message.ban("Nuke")
-   console.log(members);
+   message.ban("Nuke").then(console.log)
    
  });
   
